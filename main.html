@@ -5,68 +5,75 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/hoduproject.css">
     <title>HODU</title>
 </head>
 <body>
-    <section class="header">
+    <section id="header">
         <div class="headwrapper">
-            <div class="headnav">
+            <div class="head_logo">
                 <img src="img/hodu_logo.png" alt="호두로고" class="hodu_logo">
             </div>
 
             <div class="headnav">
-                <p class="home">Home</p>
-                <p class="about">About</p>
-                <p class="support">Support</p>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Support</a>
                 <button class="download">Download</button>
             </div>
         </div>
         <div class="intro">
-            <div class="intro_saying">
-                "Lorem Ipsum is simply <br>
-                dummy text of the printing and"
-            </div>
-            <div class="intro_explain">
-                "Lorem Ipsum is simply dummy text of the printing and<br>
-                typesetting industry.<br>
-                Lorem Ipsum has been the industry's standard dummy text<br>
-                ever since the 1500s, when an unknown"
+            <div class="intro_text">
+                <div class="intro_saying">
+                    <p>Lorem Ipsum is simply <br>
+                    dummy text of the printing and</p>
+                </div>
+
+                <div class="intro_explain">
+                    Lorem Ipsum is simply dummy text of the printing and<br>
+                    typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text<br>
+                    ever since the 1500s, when an unknown
+                </div>
+                <div class="introbut">
+                    <button>Download</button>
+                </div>
             </div>
             <div class="boxcat">
                 <img src="img/boxcat.png" alt="박스쓴 고양이">
             </div>
-            <div class="introbut">
-                <button>Download</button>
-            </div>
         </div>
     </section>
-    <section class="middle">
+    <section id="middle">
         <div class="midwrapper">
             <div class="lyingcat">
                 <img src="img/lyingcat.png" alt="누워있는 고양이">
             </div>
-            <div class="mid_saying">
-                "Lorem Ipsum is simply<br>
-                dummy text of the printing<br>
-                and dummy text"
+            <div class="mid_text">
+                <div class="mid_saying">
+                    Lorem Ipsum is simply<br>
+                    dummy text of the printing<br>
+                    and dummy text
+                </div>
+                <div class="mid_explain">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.
+                </div>
             </div>
-            <div class="mid_explain">
-                "Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry. "
-            </div>
+
         </div>
         <div class="dummy">
             <div class="dummy_saying">
-                "dummy text of the printing and dummy"
+                dummy text of the printing and dummy
             </div>
             <div class="dummy_explain">
-                "Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+                Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
             </div>
         </div>
     </section>
-    <section class="imgs">
+    <section id="imgs">
         <div class="imgwrapper">
             <div class="firstline">
                 <img src="img/cat1.png" alt="고양이1">
@@ -81,75 +88,131 @@
             </div>
         </div>
         <div class="moreimg">
-            <div class="moving">"Continue exploring HODU"</div>
+            <div class="moving">Continue exploring HODU</div>
             <div class="more_but">
                 <button>Show more</button>
             </div>
         </div>
+        <div class="line_img">
+            <div class="line">
+                <img src="img/line.png" alt="라인이미지">
+            </div>
+
+        </div>
     </section>
-    <section class="map">
+    <section id="map">
         <div class="mapwrapper">
             <div class="location">
             <p>Where you'll be</p>
             </div>
             <div class="location_explain">
-                "330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea"
+                330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
             </div>
         </div>
-        <div id="kakaomap" style="width:50%;height:350px;"></div>
+        <div id="kakaomap"></div>
     </section>
 
-    <section class="subscribe">
-        <div class="sub_saying">
-            "Subscribe to our Blog Post"
+    <section id="subscribe">
+        <div class="subscribe_wrapper">
+            <div class="subscribe_text">
+                <div class="sub_saying">
+                    Subscribe to our Blog Post
+                </div>
+                <div class="sub_explain">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text
+                </div>
+            </div>
+            <div class="email_subscribe">
+                <div class="input_wrapper">
+                    <div class="email_logo">
+                        <img src="img/email_logo.png" alt="이메일로고">
+                    </div>
+                    <div class="email_post">
+                        <input type="email" id="emailInput" placeholder="                 Enter your e-mail address">
+                    </div>
+                    <div class="sub_btn">
+                        <button id="subscribe_btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="sub_explain">
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text "
-        </div>
-        <div class="email_post">
-            <input type="email">
-        </div>
-        <div class="email_logo">
-            <img src="img/email_logo.png" alt="이메일로고">
-        </div>
-        <div class="sub_btn">
-            <button>Subscribe</button>
-        </div>
+
     </section>
 
-    <section class="footer">
+    <section id="footer">
         <div class="footwrapper">
-            <div class="footer_img">
-                <img src="img/footer_cat.png" alt="footer고양이">
+            <div class="foot">
+                <div class="footer_img">
+                    <img src="img/footer_cat.png" alt="footer고양이">
+                </div>
+                <div class="move_top">
+                    <button id="top">
+                        <img src="img/move_top.png" alt="상단이동버튼">
+                    </button>
+                </div>
             </div>
+            
             <div class="footernav">
                 <div class="footer_logo">
                     <img src="img/footer_logo.png" alt="footer로고">
                 </div>
                 <div class="sns_logo">
-                    <img src="img/icon-blog.png" alt="블로그 로고">
-                    <img src="img/icon-insta.png" alt="인스타 로고">
-                    <img src="img/icon-facebook.png" alt="페이스북 로고">
-                    <img src="img/icon-youtube.png" alt="유튜브 로고">
+                    <button id="blog">
+                        <img src="img/icon-blog.png" alt="블로그 로고">
+                    </button>
+                    <button id="insta">
+                        <img src="img/icon-insta.png" alt="인스타 로고">
+                    </button>
+                    <button id="facebook">
+                        <img src="img/icon-facebook.png" alt="페이스북 로고">
+                    </button>
+                    <button id="youtube">
+                        <img src="img/icon-youtube.png" alt="유튜브 로고">
+                    </button>
                 </div>
             </div>
-            여
+
         </div>
     </section>
 
+    <section id="modal">
+        <div class="modal_wrapper">
+            <div class="modal_page">
+                <img src="img/modal_background.png" alt="모달 배경">
+            </div>
+            <div class="modal_cat">
+                <img src="img/modal_cat.png" alt="모달고양이">
+            </div>
+            <div class="thank">
+                Thank you!
+            </div>
+            <div class="thank_explain">
+                Lorem Ipsum is simply dummy text of the printing industry.
+            </div>
+            <div id="love_but">
+                <button>OK! I Love HODU</button>
+            </div>
+        </div>
+    </section>
 
-
+    <!--카카오지도 api-->
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bc796c05b31f88b7cbfc847398ebc699"></script>
+
     <script>
         var mapContainer = document.getElementById('kakaomap'), // 지도를 표시할 div
             mapOption = {
-                center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+                center : new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
                 level: 3 // 지도의 확대 레벨
             };
 
-        // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+        {/*지도를 표시할 div와  지도 옵션으로  지도를 생성합니다*/}
         var map = new kakao.maps.Map(mapContainer, mapOption);
     </script>
+
+    <!--모달 js-->
+    <script src="js/modal.js"></script>
+    <!--스크롤js-->
+    <script src="js/scroll.js"></script>
 </body>
 </html>

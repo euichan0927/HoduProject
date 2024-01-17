@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Pretendard-Regular;
+    color:black;
+    width:1902px;
+}
+
+
+#header{
+    background-color: #F2E9D8;
+    width:1920px;
+    height: 900px;
+
+}
+.headwrapper, .intro, .midwrapper, .dummy, .imgwrapper, .moreimg, .mapwrapper,.subscribe_wrapper, .sub_saying, .sub_explain, .email_post,.email_logo,.sub_btn, #kakaomap{
+    /*width:1278px;*/
+    margin-left: 320px;
+    margin-right:320px;
+    /*text-align: center;*/
+}
+#header button, #middle button, #imgs button, #map button,#subscribe button, #Modal button{
+    width:140px;
+    height:50px;
+    background-color: #D97652;
+    color:white;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+}
+.headwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+}
+.head_logo{
+    margin-top: 30px;
+    width:130px;
+    height:40px;
+    margin-left: -340px;
+
+}
+.headnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: -260px;
+}
+.headnav a{
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.headnav button {
+    width:140px;
+    height:50px;
+    margin-top: 20px;
+    background-color: #D97652;
+    color:white;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+}
+.intro{
+    display: flex;
+    margin-left: 320px;
+    margin-top: 200px;
+.intro_text{
+    display: flex;
+    flex-direction: column;
+}
+}
+.intro_saying{
+    width:695px;
+    height:120px;
+    margin-bottom: 40px;
+
+}
+.intro_saying p{
+    font-size:48px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.intro_explain{
+    width:420px;
+    height:86px;
+    font-size:16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.boxcat{
+    position: relative;
+    left:170px;
+    bottom:130px;
+}
+
+/*미드 부분*/
+.midwrapper{
+    display: flex;
+
+
+}
+.lyingcat{
+    margin-right: 110px;
+    margin-bottom: 120px;
+    width:660px;
+    height: 390px;
+}
+.mid_text{
+    position: relative;
+}
+.mid_saying{
+    margin-bottom: 30px;
+    font-weight:700;
+    font-size:36px;
+    line-height: 45px;
+    margin-top: 170px;
+
+}
+.mid_explain{
+    font-size:15px;
+    line-height: 20px;
+}
+/*더미 부분*/
+.dummy_saying{
+    font-size:48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color:#D97652;
+    margin-bottom:40px;
+    align-items: center;
+}
+.dummy_explain{
+    font-size:16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 88px;
+}
+.dummy_explain span{
+    color:#D97652;
+}
+
+.imgwrapper div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.firstline,.secondline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    /*margin-left: 15px;*/
+}
+.image_row div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.image_row img{
+    width:378px;
+    height:378px;
+    /*object-fit: cover; !* 이미지가 각 div 안에서 꽉 차도록 설정합니다. *!*/
+    border-radius: 30px;
+    /*margin-left: 20px;*/
+    /*margin-right: 0;*/
+    /*padding:10px;*/
+}
+.imgwrapper div:first-child,
+.image_row:first-child{
+    margin-right: auto;
+}
+.imgwrapper div:last-child,
+.image_row:last-child{
+    margin-left: auto;
+}
+.moving{
+    margin-top: 100px;
+    margin-bottom: 28px;
+    font-size:24px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.more_but button{
+    margin-left: 550px;
+    margin-top: 28px;
+    margin-bottom: 80px;
+}
+.line img{
+    width:1278px;
+    height:1px;
+    text-align: center;
+    margin-left: 320px;
+    margin-bottom: 68px;
+}
+
+.location p{
+    font-weight: 700;
+    font-size:36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.location_explain{
+    font-weight: 500;
+    font-size:16px;
+    line-height: 20px;
+    margin-bottom: 48px;
+}
+#kakaomap{
+    width:1278px;
+    height: 572px;
+    margin-bottom: 80px;
+}
+
+/*구독 부분*/
+.subscribe_wrapper{
+    position: relative;
+    width:1280px;
+    height: 200px;
+    background-color: #263140;
+    display: flex;
+    border-radius: 30px;
+    padding:0;
+    margin:0;
+    margin-left:320px;
+    z-index:2;
+
+}
+
+.sub_saying{
+    width:448px;
+    height: 45px;
+    font-weight: 700;
+    font-size:36px;
+    line-height:45px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.sub_explain{
+    width:471px;
+    height:36px;
+    font-size:14px;
+    line-height: 18px;
+    color:white;
+    margin-left: 25px;
+}
+
+.email_subscribe{
+    position: absolute;
+    top:0;
+    right:0;
+    z-index:100;
+}
+.email_logo{
+    position: relative;
+    top:88px;
+    left:300px;
+    z-index: 10;
+}
+.email_post{
+
+    position: relative;
+    top:40px;
+    left:270px;
+}
+.sub_btn{
+    position: relative;
+    top:-18px;
+    left:660px;
+}
+.email_post input{
+    width:530px;
+    height:60px;
+    border-radius: 30px;
+}
+
+/*footer 부분*/
+.footwrapper{
+
+    margin-top: -100px;
+}
+.foot{
+    position: relative;
+    z-index:1;
+}
+.move_top{
+    position: absolute;
+    right:50px;
+    bottom:20px;
+}
+#top{
+    cursor: pointer;
+    border:none;
+    background: none;
+}
+.footernav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+}
+.footer_logo{
+    margin-left: 320px;
+    margin-bottom: 45px;
+}
+.sns_logo{
+    margin-right: 320px;
+    margin-bottom: 35px;
+}
+.sns_logo img{
+    margin-left: 20px;
+}
+.sns_logo button
+{
+    cursor: pointer;
+    border:none;
+    background: none;
+}
+/*모달 부분*/
+
+.modal_wrapper{
+    position: fixed;
+    top:300px;
+    left:300px;
+    margin-left: 320px;
+    display: none;
+    z-index: 999;
+}
+.modal_page img{
+    width:600px;
+    height: 400px;
+    border-radius: 30px;
+}
+.modal_cat{
+    position: relative;
+    margin-left: 245px;
+    margin-top: -320px;
+    margin-bottom: 24px;
+}
+.thank{
+    font-size:36px;
+    font-weight: 700;
+    width:212px;
+    height: 46px;
+    text-align: center;
+    line-height: 45px;
+    color: #D97652;
+    margin-left: 194px;
+    margin-bottom: 12px;
+}
+.thank_explain{
+    font-size:14px;
+    text-align: center;
+    width:365px;
+    height: 18px;
+    margin-left: 108px;
+    margin-bottom: 38px;
+}
+#love_but button{
+    width:183px;
+    height: 50px;
+    margin-left: 205px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    background-color: #D97652;
+    color:white;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+}
