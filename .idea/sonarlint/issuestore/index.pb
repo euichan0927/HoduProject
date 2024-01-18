@@ -5,9 +5,6 @@
 	main.html,2\d\2d6427cfcffb5ef37b2d32bd7aac8a9b7450a987
 C
 css/hoduproject.css,9\6\96bab5ec5a800ac6a2ad58154807a687eab02a6e
-:
-
-js/hodu.js,8\8\88333a7c54f8dd92532b95acc988ee984e8a1ea9
 <
 js/config.js,a\2\a2ea22e8503c87ada843473536654522b138a069
 :
