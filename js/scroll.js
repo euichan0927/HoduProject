@@ -1,4 +1,4 @@
-
+    // 이미지 무한 스크롤 기능
     const imgWrapper = document.querySelector(".imgwrapper");
     let pageToFetch = 1;
     let fetching = false;
@@ -71,6 +71,7 @@
     }
 }
 
+// 버튼 클릭 시 페이지 상단으로 이동 기능
 document.getElementById('top').addEventListener('click',function (){
     window.scrollTo(0,0);
 });

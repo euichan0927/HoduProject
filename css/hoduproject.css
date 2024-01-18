@@ -1,10 +1,11 @@
+/*font 설정*/
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
-
+/*큰 범위 공통 설정*/
 html,body {
     width: 100%;
     height: 100%;
@@ -38,11 +39,13 @@ body{
     border:none;
     cursor: pointer;
 }
+/*헤더 부분*/
 .headwrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 200px;
+    margin-left: 270px;
 
 }
 .head_logo{
@@ -61,6 +64,11 @@ body{
 .headnav a{
     margin-right: 30px;
     margin-top: 40px;
+}
+#first_but{
+    position: absolute;
+    right:215px;
+    top:-35px;
 }
 .headnav button {
     width:140px;
@@ -134,7 +142,7 @@ body{
     font-size:15px;
     line-height: 20px;
 }
-/*더미 부분*/
+/*더미 이미지 부분*/
 .dummy_saying{
     font-size:48px;
     font-weight: 700;
@@ -174,7 +182,7 @@ body{
 .image_row img{
     width:378px;
     height:378px;
-    /*object-fit: cover; !* 이미지가 각 div 안에서 꽉 차도록 설정합니다. *!*/
+
     border-radius: 30px;
     /*margin-left: 20px;*/
     /*margin-right: 0;*/
@@ -201,6 +209,7 @@ body{
     margin-top: 28px;
     margin-bottom: 80px;
 }
+/*경계선 부분*/
 .line img{
     width:1278px;
     height:1px;
@@ -209,6 +218,7 @@ body{
     margin-bottom: 68px;
 }
 
+/*지도와 위치 부분*/
 .location p{
     font-weight: 700;
     font-size:36px;

@@ -21,7 +21,11 @@
                 <a href="">Home</a>
                 <a href="">About</a>
                 <a href="">Support</a>
-                <button class="download">Download</button>
+                <a href="img/boxcat.png" download="boxcat.png" id="first_but">
+                    <button class="download">Download</button>
+                </a>
+
+
             </div>
         </div>
         <div class="intro">
@@ -38,7 +42,9 @@
                     ever since the 1500s, when an unknown
                 </div>
                 <div class="introbut">
-                    <button>Download</button>
+                    <a href="img/lyingcat.png" download="lyingcat.png">
+                        <button>Download</button>
+                    </a>
                 </div>
             </div>
             <div class="boxcat">
@@ -111,7 +117,6 @@
         </div>
         <div id="kakaomap"></div>
     </section>
-
     <section id="subscribe">
         <div class="subscribe_wrapper">
             <div class="subscribe_text">
@@ -139,7 +144,6 @@
         </div>
 
     </section>
-
     <section id="footer">
         <div class="footwrapper">
             <div class="foot">
@@ -175,7 +179,6 @@
 
         </div>
     </section>
-
     <section id="modal">
         <div class="modal_wrapper">
             <div class="modal_page">
@@ -197,7 +200,8 @@
     </section>
 
     <!--카카오지도 api-->
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bc796c05b31f88b7cbfc847398ebc699"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bc796c05b31f88b7cbfc847398ebc699">
+    </script>
 
     <script>
         var mapContainer = document.getElementById('kakaomap'), // 지도를 표시할 div
