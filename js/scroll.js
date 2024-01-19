@@ -71,7 +71,15 @@
     }
 }
 
-// 버튼 클릭 시 페이지 상단으로 이동 기능
+// header에 존재하는 버튼 클릭 시 해당하는 페이지 위치로 이동하는 기능
 document.getElementById('top').addEventListener('click',function (){
     window.scrollTo(0,0);
+});
+document.getElementById('go_about').addEventListener('click',function(){
+    event.preventDefault();
+    window.scrollTo(0,914)
+});
+document.getElementById('go_support').addEventListener('click',function(){
+    event.preventDefault();
+    window.scrollTo(0,3425)
 });
