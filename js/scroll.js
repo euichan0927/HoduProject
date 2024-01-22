@@ -4,7 +4,7 @@
     let fetching = false;
 
     let totalImagesLoaded = 0; // 로드된 이미지의 총 개수를 추적하는 변수
-    const maxImages = 10; // 최대 이미지 로드 개수
+    const maxImages = 10000000000000; // 최대 이미지 로드 개수
 
     async function fetchImages(page) {
     // 이미 최대 개수에 도달했다면 추가 로드하지 않음
