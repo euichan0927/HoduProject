@@ -179,11 +179,7 @@ body{
     justify-content: space-between;
     margin-bottom: 70px;
 }
-.imgwrapper img{
-    width:378px;
-    height: 378px;
-    border-radius: 30px;
-}
+
 
 .firstline,.secondline{
     display: flex;
@@ -195,15 +191,12 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
+
 }
 .image_row img{
     width:378px;
     height:378px;
-
     border-radius: 30px;
-    /*margin-left: 20px;*/
-    /*margin-right: 0;*/
-    /*padding:10px;*/
 }
 .imgwrapper div:first-child,
 .image_row:first-child{
