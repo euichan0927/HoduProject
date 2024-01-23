@@ -36,7 +36,7 @@
 
 ### 4. 이메일 구독 기능
 
-![배포4](https://github.com/euichan0927/HoduProject/assets/128672362/75860b23-a4b5-43ed-a90f-e614d34a0a7e)
+![image](https://github.com/euichan0927/HoduProject/assets/128672362/c08b02e0-5da3-4761-b016-c458ab68994f)
 
 
 ## 배포 URL
