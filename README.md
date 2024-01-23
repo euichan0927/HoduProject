@@ -30,7 +30,7 @@
 ### 2. 이미지 무한로드
 - Show more 버튼을 클릭해서 다양한 이미지를 확인할 수 있습니다.
   
-![배포2](https://github.com/euichan0927/HoduProject/assets/128672362/b5d4d2c2-8a15-4897-8978-67762107fee1)
+![무한로드](https://github.com/euichan0927/HoduProject/assets/128672362/e2de77c5-a17e-4917-a04e-82336b66d5e2)
 
 
 ### 3. HODU 위치 기능
@@ -39,12 +39,15 @@
 ![배포3](https://github.com/euichan0927/HoduProject/assets/128672362/6077cd54-a963-45df-adfc-7ecd933954a8)
 
 
-### 5. 이메일 구독 기능
+### 4. 이메일 구독 기능
 - Email을 입력하고 Subscribe 버튼을 클릭해서 구독을 신청할 수 있습니다.
   
-![image](https://github.com/euichan0927/HoduProject/assets/128672362/c08b02e0-5da3-4761-b016-c458ab68994f)
+![구독](https://github.com/euichan0927/HoduProject/assets/128672362/098876ba-5092-4709-96b7-dec3120e0f5a)
 
+### 5. SNS 이동 기능
+- Blog, instagram, facebook, youtube 버튼을 클릭해서 해당 경로로 이동할 수 있습니다.
 
+![유튜브이동](https://github.com/euichan0927/HoduProject/assets/128672362/852db215-996d-48a9-a105-263f52650d28)
 ## 4. 배포 URL
 
 - [HODU (euichan0927.github.io)](https://euichan0927.github.io/HoduProject/main.html)
