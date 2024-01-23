@@ -303,12 +303,16 @@ body{
 .sub_btn{
     position: relative;
     top:-18px;
-    left:660px;
+    left:720px;
 }
 .email_post input{
     width:530px;
     height:60px;
     border-radius: 30px;
+    background-image:url('img/email_logo.png') ;
+    background-position: 10px center;
+    /* 로고와 버튼을 위한 패딩 설정 */
+    padding-left: 60px;
 }
 
 /*footer 부분*/

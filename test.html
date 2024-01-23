@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .input_wrapper {
+            position: relative; /* 상대 위치 설정 */
+            display: block; /* 블록 레벨 요소로 설정 */
+            width: 100%; /* 혹은 필요한 너비 */
+            height: 40px; /* 필요한 높이 */
+            margin: 0; /* 필요에 따라 마진 설정 */
+        }
+
+        .input_wrapper input[type="email"] {
+            width: 100%; /* 컨테이너의 전체 너비 */
+            height: 100%; /* 컨테이너의 전체 높이 */
+            padding: 10px 120px 10px 40px; /* 로고와 버튼을 위한 패딩 설정 */
+            background-image: url('img/email_logo.png');
+            background-repeat: no-repeat;
+            background-position: 10px center; /* 로고의 위치 */
+            border: 1px solid #ccc; /* 필요에 따라 테두리 설정 */
+            box-sizing: border-box; /* 패딩을 너비에 포함 */
+        }
+
+        .input_wrapper button {
+            position: absolute;
+            right: 10px; /* 컨테이너의 우측 끝에서 10px 떨어진 위치 */
+            top: 50%; /* 상단으로부터 50% */
+            transform: translateY(-50%); /* 버튼을 세로 중앙에 배치 */
+            /* 버튼 스타일링 추가 */
+            padding: 10px 20px; /* 버튼 내부 패딩 */
+            border: none; /* 필요에 따라 테두리 설정 */
+            background-color: #f00; /* 색상은 예시 */
+            color: #fff; /* 색상은 예시 */
+            cursor: pointer; /* 버튼에 마우스 오버 시 커서 변경 */
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="input_wrapper">
+        <div class="email_logo">
+            <img src="img/email_logo.png" alt="이메일로고">
+        </div>
+        <div class="email_input">
+            <input type="email" id="emailInput" placeholder="Enter your e-mail address">
+            <button id="subscribe_btn">Subscribe</button>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
